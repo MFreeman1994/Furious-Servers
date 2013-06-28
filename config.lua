@@ -2,8 +2,14 @@
 Only change stuff in here!
 */
 NPCSHOP = NPCSHOP or {}
-NPCSHOP.CarSpawn = {}
-NPCSHOP.NPCSpawn = {}
+NPCSHOP.CarSpawn = {
+	pos = Vector(-2820.945068, -893.075684, -131.968750),
+	ang = Angle(34.187996, -3.924011, 0.000000)
+	}
+NPCSHOP.NPCSpawn = {
+	pos = Vector(-2673.206543, -552.165283, -139.968750),
+	ang = Angle(19.007977, -92.496101, 0.000000)
+	}
 
 /*
 Edit stuff below this line
@@ -15,16 +21,16 @@ NPCSHOP.NPCModel = "models/vortigaunt.mdl"
 //Position of the NPC, in YOUR console, type getpos to get positioning co-ordinates
 
 NPCSHOP.NPCSpawn["rp_<mapname>"] = { //Put the actual map name in
-  pos = Vector(-2820.945068, -893.075684, -131.968750),
-	ang = Angle(34.187996, -3.924011, 0.000000)
+	pos = Vector(0, 0, 0),
+	ang = Angle(0, 0, 0)
 }
 
 //Position for the carspawn
 
 NPCSHOP.CarSpawn["rp_<mapname>"] = {
 	{
-		pos = Vector(-2673.206543, -552.165283, -139.968750),
-		ang = Angle(19.007977, -92.496101, 0.000000)
+		pos = Vector(0, 0, 0),
+		ang = Angle(0, 0, 0)
 	},
 }
 
